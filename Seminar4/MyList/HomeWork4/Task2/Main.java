@@ -13,9 +13,7 @@ import Seminar4.MyList.HomeWork4.Task2.utill.DBCreator;
 public class Main {
     public static void main(String[] args) {
         WildCat wildCat = new WildCat(1, 4, LocalDate.of(2023, 1, 5), new Owner("incognito"));
- 
-        createDB(wildCat);
+
+        // createDB(wildCat);
+    }
 }
-
-   
-
